@@ -1,0 +1,35 @@
+@import "mixins";
+@import "btn";
+
+html{
+    height: 100vh;
+    @include coverimage('images/leuchtturm.jpg')
+}
+
+body{
+    h1{
+        color: #bee650;
+        text-align: center;
+        margin-top: 5%;
+        font-size: 3rem;
+    }
+    p{
+        color: #68eeee;
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+.container{
+    text-align: center;
+}
+
+.btn-wattmeer{
+    @extend %btn;
+    background-color: rgb(71, 54, 6);
+}
+
+.btn-seehunde{
+    @extend %btn;
+    background-color: rgb(100, 100, 100);
+}

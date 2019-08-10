@@ -1,0 +1,47 @@
+.btn-wattmeer, .btn-seehunde {
+  display: inline-block;
+  width: 250px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 20px;
+  background-color: #e94adc;
+  margin: 100px 50px;
+  border-color: none;
+}
+
+html {
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 45, 75, 0)), to(rgba(0, 0, 0, 0.7))), url("images/leuchtturm.jpg");
+  background-image: linear-gradient(to top, rgba(0, 45, 75, 0), rgba(0, 0, 0, 0.7)), url("images/leuchtturm.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+body h1 {
+  color: #bee650;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 3rem;
+}
+
+body p {
+  color: #68eeee;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.container {
+  text-align: center;
+}
+
+.btn-wattmeer {
+  background-color: #473606;
+}
+
+.btn-seehunde {
+  background-color: #646464;
+}
+/*# sourceMappingURL=nordsee.css.map */
